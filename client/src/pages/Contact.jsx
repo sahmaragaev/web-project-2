@@ -1,6 +1,4 @@
-// client/src/pages/Contact.jsx
 import React, { useState } from "react";
-import { sendMessage } from "../services/api";
 
 function Contact() {
   const [subject, setSubject] = useState("");
@@ -10,7 +8,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await sendMessage({ subject, email, content });
+      //   await sendMessage({ subject, email, content });
       alert("Message sent successfully!");
       setSubject("");
       setEmail("");
