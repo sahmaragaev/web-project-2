@@ -2,7 +2,7 @@ import React from 'react'
 
 function SearchBar({ value, onChange }) {
   return (
-    <div>
+    <div className="search-bar">
       <input
         type="text"
         placeholder="Search recipes..."

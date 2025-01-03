@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Card container */
+.recipe-card {
+  background-color: #444B6E;
+  color: #F8F991;
+  border: 2px solid #708B75;
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 250px;
+  position: relative;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Hover effects */
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Title styles */
+.recipe-card h3 {
+  font-size: 1.5rem;
+  color: #9AB87A;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraph styles */
+.recipe-card p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #F8F991;
+}
+
+/* Highlighted labels */
+.recipe-card p strong {
+  color: #708B75;
+}
+
+/* Button styles */
+.recipe-card button {
+  background-color: #9AB87A;
+  color: #3D315B;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-card button:hover {
+  background-color: #708B75;
+  color: #F8F991;
+}
+
+/* Input and textarea styles for editing */
+.recipe-card input,
+.recipe-card textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 2px solid #708B75;
+  border-radius: 5px;
+  background-color: #3D315B;
+  color: #F8F991;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.recipe-card input:focus,
+.recipe-card textarea:focus {
+  border-color: #9AB87A;
+  outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .recipe-card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .recipe-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .recipe-card button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}

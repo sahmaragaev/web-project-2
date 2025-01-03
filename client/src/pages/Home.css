@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3D315B;
+  color: #F8F991;
+  font-family: 'Exo 2', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Container styles */
+div {
+  background-color: #444B6E;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 2.5rem;
+  color: #F8F991;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px #3D315B;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #9AB87A;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #F8F991;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #F8F991;
+}
+
+/* Featured Recipe Styles */
+div > div {
+  background-color: #3D315B;
+  padding: 1rem;
+  border: 2px solid #708B75;
+  border-radius: 10px;
+  text-align: left;
+  margin: 1.5rem 0;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+
+ul li a {
+  color: #F8F991;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #9AB87A;
+  border-radius: 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: #708B75;
+  color: #3D315B;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  ul li a {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
