@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { createRecipe } from '../services/api'
+import './RecipeForm.css'
 
 function RecipeForm({ onRecipeCreated, onClose }) {
   const [title, setTitle] = useState('')

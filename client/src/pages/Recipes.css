@@ -1,7 +1,5 @@
-/* Import Dancing Script font */
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +7,9 @@
 }
 
 body {
-  background-color: #3D315B;
-  color: #F8F991;
-  font-family: 'Exo 2', sans-serif;
+  background-color: #3d315b;
+  color: #f8f991;
+  font-family: "Exo 2", sans-serif;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -19,29 +17,26 @@ body {
   padding: 2rem;
 }
 
-/* Container styles */
 div {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
 
-/* Heading styles */
 h1 {
   font-size: 2.5rem;
-  color: #F8F991;
+  color: #f8f991;
   margin-bottom: 1.5rem;
-  text-shadow: 2px 2px #3D315B;
+  text-shadow: 2px 2px #3d315b;
 }
 
-/* Button styles */
 button {
-  background-color: #9AB87A;
-  color: #3D315B;
+  background-color: #9ab87a;
+  color: #3d315b;
   border: none;
   padding: 0.7rem 1.5rem;
   font-size: 1.2rem;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   border-radius: 25px;
   cursor: pointer;
   margin: 1rem 0;
@@ -49,34 +44,32 @@ button {
 }
 
 button:hover {
-  background-color: #708B75;
-  color: #F8F991;
+  background-color: #708b75;
+  color: #f8f991;
 }
 
-/* Form and filter styles */
 label {
   font-size: 1.2rem;
   margin-right: 0.5rem;
-  color: #F8F991;
+  color: #f8f991;
 }
 
 select {
-  background-color: #444B6E;
-  color: #F8F991;
-  border: 2px solid #708B75;
+  background-color: #444b6e;
+  color: #f8f991;
+  border: 2px solid #708b75;
   border-radius: 5px;
   padding: 0.5rem;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 1rem;
   outline: none;
   margin-bottom: 1rem;
 }
 
 select:focus {
-  border-color: #9AB87A;
+  border-color: #9ab87a;
 }
 
-/* Recipe grid */
 div > div {
   display: flex;
   flex-wrap: wrap;
@@ -85,13 +78,13 @@ div > div {
 }
 
 .recipe-card {
-  background-color: #444B6E;
+  background-color: #444b6e;
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   width: calc(33.333% - 2rem);
   max-width: 300px;
-  color: #F8F991;
+  color: #f8f991;
   text-align: left;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -101,7 +94,6 @@ div > div {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   div > div {
     flex-direction: column;
