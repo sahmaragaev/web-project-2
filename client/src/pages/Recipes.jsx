@@ -3,7 +3,7 @@ import RecipeCard from "../components/RecipeCard";
 import RecipeForm from "../components/RecipeForm";
 import SearchBar from "../components/SearchBar";
 import { getAllRecipes } from "../services/api";
-import './Recipes.css'
+import './Recipes.css';
 
 function Recipes() {
   const [recipes, setRecipes] = useState([]);
@@ -31,10 +31,7 @@ function Recipes() {
   }
 
   const filteredRecipes = recipes
-    .filter(
-      (recipe, index, self) =>
-        index === self.findIndex((r) => r.id === recipe.id)
-    )
+    .filter((recipe, index, self) => index === self.findIndex((r) => r.id === recipe.id))
     .filter((recipe) => {
       const term = searchTerm.toLowerCase();
       return (
@@ -62,7 +59,7 @@ function Recipes() {
   });
 
   return (
-    <div>
+    <div className="recipes-container">
       <h1>Recipes</h1>
       <button onClick={() => setShowForm(!showForm)}>
         {showForm ? "Close" : "Create New Recipe"}
@@ -77,12 +74,9 @@ function Recipes() {
 
       <SearchBar value={searchTerm} onChange={setSearchTerm} />
 
-      <div>
+      <div className="filter-container">
         <label>Filter by tag:</label>
-        <select
-          value={filterTag}
-          onChange={(e) => setFilterTag(e.target.value)}
-        >
+        <select value={filterTag} onChange={(e) => setFilterTag(e.target.value)}>
           <option value="">All</option>
           <option value="Dessert">Dessert</option>
           <option value="Vegetarian">Vegetarian</option>
@@ -90,7 +84,7 @@ function Recipes() {
         </select>
       </div>
 
-      <div>
+      <div className="sort-container">
         <label>Sort by:</label>
         <select value={sortType} onChange={(e) => setSortType(e.target.value)}>
           <option value="">None</option>
@@ -100,7 +94,7 @@ function Recipes() {
         </select>
       </div>
 
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "1em" }}>
+      <div className="recipes-grid">
         {sortedRecipes.map((recipe, index) => (
           <RecipeCard
             key={`${recipe.id}-${index}`}

@@ -1,16 +1,15 @@
-import React from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
-import Home from './pages/Home'
-import Recipes from './pages/Recipes'
-import Contact from './pages/Contact'
-import './App.css';
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import Recipes from "./pages/Recipes";
+import Contact from "./pages/Contact";
+import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <nav>
-        <Link to="/">Home</Link> |{' '}
-        <Link to="/recipes">Recipes</Link> |{' '}
+        <Link to="/">Home</Link> | <Link to="/recipes">Recipes</Link> |{" "}
         <Link to="/contact">Contact</Link>
       </nav>
 
@@ -20,7 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

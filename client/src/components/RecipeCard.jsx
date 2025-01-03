@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { deleteRecipe, updateRecipe } from "../services/api";
 import "./RecipeCard.css";
 
-function RecipeCard({ recipe, onDelete, onEdit }) {
+function RecipeCard({ recipe, onDelete, onEdit, isFeatured }) {
   const [isEditing, setIsEditing] = useState(false);
   const [title, setTitle] = useState(recipe.title);
   const [description, setDescription] = useState(recipe.description);
@@ -62,10 +62,12 @@ function RecipeCard({ recipe, onDelete, onEdit }) {
           <p>
             <strong>Tags:</strong> {recipe.tags.join(", ")}
           </p>
-          <div className="button-group">
-            <button onClick={() => setIsEditing(true)}>Edit</button>
-            <button onClick={handleDelete}>Delete</button>
-          </div>
+          {!isFeatured && (
+            <div className="button-group">
+              <button onClick={() => setIsEditing(true)}>Edit</button>
+              <button onClick={handleDelete}>Delete</button>
+            </div>
+          )}
         </>
       )}
     </div>
