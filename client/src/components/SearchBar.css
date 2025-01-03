@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem 1rem;
+  border: 2px solid #708b75;
+  border-radius: 25px;
+  background-color: #3d315b;
+  color: #f8f991;
+  font-size: 1rem;
+  font-family: "Exo 2", sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-bar input:focus {
+  border-color: #9ab87a;
+  outline: none;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar input::placeholder {
+  color: #f8f991;
+  opacity: 0.8;
+}

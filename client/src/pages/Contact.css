@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3d315b;
+  color: #f8f991;
+  font-family: "Exo 2", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  background-color: #444b6e;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f8f991;
+  text-shadow: 2px 2px #3d315b;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+
+label {
+  font-size: 1.2rem;
+  color: #f8f991;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #9ab87a;
+  border-radius: 5px;
+  background-color: #3d315b;
+  color: #f8f991;
+  font-family: "Exo 2", sans-serif;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #708b75;
+}
+
+button {
+  background-color: #9ab87a;
+  color: #3d315b;
+  border: none;
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-family: "Exo 2", sans-serif;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #708b75;
+  color: #f8f991;
+}
+
+@media (max-width: 768px) {
+  div {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}

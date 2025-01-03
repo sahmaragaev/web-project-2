@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.recipe-form {
+  background-color: #444B6E;
+  color: #F8F991;
+  border: 2px solid #708B75;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-top: 1em;
+  width: 100%;
+  max-width: 600px;
+  font-family: 'Exo 2', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.recipe-form h2 {
+  margin-bottom: 1.5rem;
+  color: #9AB87A;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+
+.recipe-form label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #F8F991;
+}
+
+
+.recipe-form input,
+.recipe-form textarea,
+.recipe-form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 2px solid #708B75;
+  border-radius: 5px;
+  background-color: #3D315B;
+  color: #F8F991;
+}
+
+.recipe-form input:focus,
+.recipe-form textarea:focus,
+.recipe-form select:focus {
+  border-color: #9AB87A;
+  outline: none;
+}
+
+
+.recipe-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+
+.recipe-form button {
+  background-color: #9AB87A;
+  color: #3D315B;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-form button:hover {
+  background-color: #708B75;
+  color: #F8F991;
+}

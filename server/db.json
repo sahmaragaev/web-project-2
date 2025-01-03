@@ -400,27 +400,6 @@
             "url": "https://www.themealdb.com/images/media/meals/n1hcou1628770088.jpg"
         },
         {
-            "id": 27,
-            "title": "Churros",
-            "description": "A fried-dough pastry, typically sprinkled with sugar.",
-            "ingredients": [
-                "flour",
-                "water",
-                "butter",
-                "sugar",
-                "cinnamon"
-            ],
-            "steps": "1. Make dough. 2. Pipe and fry dough. 3. Roll in sugar and cinnamon.",
-            "tags": [
-                "Spanish",
-                "Dessert",
-                "Sweet"
-            ],
-            "difficulty": "Medium",
-            "lastUpdated": "2025-01-02T10:00:00",
-            "url": "https://www.themealdb.com/images/media/meals/3qkfzf1553421958.jpg"
-        },
-        {
             "id": 28,
             "title": "Poutine",
             "description": "A Canadian dish consisting of fries topped with cheese curds and gravy.",

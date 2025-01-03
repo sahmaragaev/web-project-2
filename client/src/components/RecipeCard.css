@@ -1,0 +1,100 @@
+.recipe-card {
+  background-color: #444b6e;
+  color: #f8f991;
+  border: 2px solid #708b75;
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 300px;
+  position: relative;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: "Dancing Script", cursive;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.recipe-card h3 {
+  font-size: 1.5rem;
+  color: #9ab87a;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-card p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #f8f991;
+}
+
+.recipe-card p strong {
+  color: #708b75;
+}
+
+.recipe-card .button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  gap: 10px;
+}
+
+.recipe-card button {
+  background-color: #9ab87a;
+  color: #3d315b;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-card button:hover {
+  background-color: #708b75;
+  color: #f8f991;
+}
+
+.recipe-card input,
+.recipe-card textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 2px solid #708b75;
+  border-radius: 5px;
+  background-color: #3d315b;
+  color: #f8f991;
+  font-family: "Exo 2", sans-serif;
+}
+
+.recipe-card input:focus,
+.recipe-card textarea:focus {
+  border-color: #9ab87a;
+  outline: none;
+}
+
+.recipe-card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .recipe-card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .recipe-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .recipe-card button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
