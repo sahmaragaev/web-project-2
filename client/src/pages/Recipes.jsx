@@ -12,23 +12,28 @@ function Recipes() {
   const [searchTerm, setSearchTerm] = useState("");
   const [filterTag, setFilterTag] = useState("");
   const [sortType, setSortType] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalRecipes, setTotalRecipes] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    fetchRecipes();
+    fetchRecipes(1, true);
     fetchTags();
   }, []);
 
-  async function fetchRecipes() {
+  async function fetchRecipes(page = 1, reset = false) {
+    if (isLoading) return;
+    setIsLoading(true);
     try {
-      const data = await getAllRecipes();
+      const { data, total } = await getAllRecipes(page);
 
-      const uniqueRecipes = data.filter(
-        (recipe, index, self) =>
-          index === self.findIndex((r) => r.id === recipe.id)
-      );
-      setRecipes(uniqueRecipes);
+      setRecipes((prevRecipes) => (reset ? data : [...prevRecipes, ...data]));
+      setTotalRecipes(total);
+      setCurrentPage(page);
     } catch (error) {
       console.error("Error fetching recipes:", error);
+    } finally {
+      setIsLoading(false);
     }
   }
 
@@ -41,19 +46,14 @@ function Recipes() {
     }
   }
 
-  const filteredRecipes = recipes
-    .filter(
-      (recipe, index, self) =>
-        index === self.findIndex((r) => r.id === recipe.id)
-    )
-    .filter((recipe) => {
-      const term = searchTerm.toLowerCase();
-      return (
-        recipe.title.toLowerCase().includes(term) ||
-        recipe.description.toLowerCase().includes(term) ||
-        recipe.ingredients.join(" ").toLowerCase().includes(term)
-      );
-    });
+  const filteredRecipes = recipes.filter((recipe) => {
+    const term = searchTerm.toLowerCase();
+    return (
+      recipe.title.toLowerCase().includes(term) ||
+      recipe.description.toLowerCase().includes(term) ||
+      recipe.ingredients.join(" ").toLowerCase().includes(term)
+    );
+  });
 
   const tagFilteredRecipes = filterTag
     ? filteredRecipes.filter((recipe) => recipe.tags.includes(filterTag))
@@ -72,6 +72,22 @@ function Recipes() {
     }
   });
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && recipes.length < totalRecipes) {
+          fetchRecipes(currentPage + 1);
+        }
+      },
+      { threshold: 1.0 }
+    );
+
+    const sentinel = document.querySelector("#sentinel");
+    if (sentinel) observer.observe(sentinel);
+
+    return () => observer.disconnect();
+  }, [currentPage, recipes, totalRecipes]);
+
   return (
     <div className="recipes-container">
       <h1>Recipes</h1>
@@ -81,7 +97,10 @@ function Recipes() {
 
       {showForm && (
         <RecipeForm
-          onRecipeCreated={fetchRecipes}
+          onRecipeCreated={() => {
+            setRecipes([]);
+            fetchRecipes(1, true);
+          }}
           onClose={() => setShowForm(false)}
         />
       )}
@@ -114,15 +133,17 @@ function Recipes() {
       </div>
 
       <div className="recipes-grid">
-        {sortedRecipes.map((recipe, index) => (
+        {sortedRecipes.map((recipe) => (
           <RecipeCard
-            key={`${recipe.id}-${index}`}
+            key={recipe.id}
             recipe={recipe}
-            onDelete={fetchRecipes}
-            onEdit={fetchRecipes}
+            onDelete={() => fetchRecipes(1, true)}
+            onEdit={() => fetchRecipes(1, true)}
           />
         ))}
       </div>
+      {isLoading && <p>Loading...</p>}
+      <div id="sentinel" />
     </div>
   );
 }

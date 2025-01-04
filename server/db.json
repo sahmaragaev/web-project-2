@@ -85,7 +85,7 @@
             "url": "https://www.themealdb.com/images/media/meals/k29viq1585565980.jpg"
         },
         {
-            "id": "4",
+            "id": "5",
             "title": "Sushi",
             "description": "A Japanese dish of vinegared rice and various toppings or fillings.",
             "ingredients": [
@@ -293,27 +293,6 @@
             "difficulty": "Medium",
             "lastUpdated": "2025-01-02T10:00:00",
             "url": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg"
-        },
-        {
-            "id": "15",
-            "title": "Moussaka",
-            "description": "A Greek casserole with layers of eggplant, ground meat, and béchamel sauce.",
-            "ingredients": [
-                "eggplant",
-                "ground lamb",
-                "tomato sauce",
-                "béchamel sauce",
-                "cheese"
-            ],
-            "steps": "1. Fry eggplant slices. 2. Cook ground lamb with tomato sauce. 3. Layer eggplant, lamb, and béchamel sauce. 4. Bake until golden.",
-            "tags": [
-                "Greek",
-                "Casserole",
-                "Comfort Food"
-            ],
-            "difficulty": "Hard",
-            "lastUpdated": "2025-01-02T10:00:00",
-            "url": "https://www.themealdb.com/images/media/meals/ctg8jd1585563097.jpg"
         },
         {
             "id": "16",
