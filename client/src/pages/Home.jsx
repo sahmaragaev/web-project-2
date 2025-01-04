@@ -69,6 +69,11 @@ function Home() {
             Commit Rigging (For making fake commits at fake times)
           </a>
         </li>
+        <li>
+          <a href="https://github.com/sahmaragaev/cpp-compiler-learning" target="_blank" rel="noreferrer">
+            Compiler in CPP
+          </a>
+        </li>
       </ul>
     </div>
   );
