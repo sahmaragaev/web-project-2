@@ -24,7 +24,6 @@ function Home() {
   return (
     <div>
       <h1>Welcome to the Recipe Manager App</h1>
-      <p>This app allows you to create, view, edit, and delete recipes.</p>
 
       <h2>Featured Recipe</h2>
       {Object.keys(recipe).length === 0 ? (
@@ -65,12 +64,20 @@ function Home() {
           </a>
         </li>
         <li>
-          <a href="https://github.com/sahmaragaev/commit-rigging" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/sahmaragaev/commit-rigging"
+            target="_blank"
+            rel="noreferrer"
+          >
             Commit Rigging (For making fake commits at fake times)
           </a>
         </li>
         <li>
-          <a href="https://github.com/sahmaragaev/cpp-compiler-learning" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/sahmaragaev/cpp-compiler-learning"
+            target="_blank"
+            rel="noreferrer"
+          >
             Compiler in CPP
           </a>
         </li>

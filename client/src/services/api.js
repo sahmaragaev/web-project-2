@@ -30,3 +30,8 @@ export const sendMessage = async (messageData) => {
     const res = await axios.post(`${API_URL}/messages`, messageData)
     return res.data
 }
+
+export const getAllTags = async () => {
+    const res = await axios.get(`${API_URL}/tags`)
+    return res.data
+}

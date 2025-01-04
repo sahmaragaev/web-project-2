@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import './Contact.css'
+import { sendMessage } from "../services/api";
+import "./Contact.css";
 
 function Contact() {
   const [subject, setSubject] = useState("");
@@ -9,7 +10,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      //   await sendMessage({ subject, email, content });
+      await sendMessage({ subject, email, content });
       alert("Message sent successfully!");
       setSubject("");
       setEmail("");

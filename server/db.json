@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": 1,
+            "id": "1",
             "title": "Spaghetti Bolognese",
             "description": "A classic Italian pasta dish with a rich, savory sauce.",
             "ingredients": [
@@ -22,7 +22,7 @@
             "url": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg"
         },
         {
-            "id": 2,
+            "id": "2",
             "title": "Chicken Curry",
             "description": "A flavorful and aromatic curry dish.",
             "ingredients": [
@@ -32,7 +32,7 @@
                 "onion",
                 "garlic"
             ],
-            "steps": "1. Saut\u00e9 onion and garlic. 2. Add chicken and cook until browned. 3. Stir in curry paste and coconut milk. 4. Simmer until chicken is cooked.",
+            "steps": "1. Sauté onion and garlic. 2. Add chicken and cook until browned. 3. Stir in curry paste and coconut milk. 4. Simmer until chicken is cooked.",
             "tags": [
                 "Indian",
                 "Curry",
@@ -43,7 +43,7 @@
             "url": "https://www.themealdb.com/images/media/meals/vwrpps1503068729.jpg"
         },
         {
-            "id": 3,
+            "id": "3",
             "title": "Beef Stroganoff",
             "description": "A creamy beef dish served with noodles.",
             "ingredients": [
@@ -64,7 +64,7 @@
             "url": "https://www.themealdb.com/images/media/meals/svprys1511176755.jpg"
         },
         {
-            "id": 4,
+            "id": "4",
             "title": "Greek Salad",
             "description": "A fresh and tangy salad with feta cheese.",
             "ingredients": [
@@ -85,7 +85,7 @@
             "url": "https://www.themealdb.com/images/media/meals/k29viq1585565980.jpg"
         },
         {
-            "id": 4,
+            "id": "4",
             "title": "Sushi",
             "description": "A Japanese dish of vinegared rice and various toppings or fillings.",
             "ingredients": [
@@ -106,7 +106,7 @@
             "url": "https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg"
         },
         {
-            "id": 6,
+            "id": "6",
             "title": "Tacos",
             "description": "A Mexican dish consisting of a tortilla filled with various toppings.",
             "ingredients": [
@@ -127,7 +127,7 @@
             "url": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg"
         },
         {
-            "id": 7,
+            "id": "7",
             "title": "Lasagna",
             "description": "A classic Italian dish with layers of pasta, meat, cheese, and sauce.",
             "ingredients": [
@@ -148,7 +148,7 @@
             "url": "https://www.themealdb.com/images/media/meals/rvxxuy1468312893.jpg"
         },
         {
-            "id": 8,
+            "id": "8",
             "title": "Paella",
             "description": "A traditional Spanish rice dish with seafood and vegetables.",
             "ingredients": [
@@ -158,7 +158,7 @@
                 "bell peppers",
                 "saffron"
             ],
-            "steps": "1. Saut\u00e9 seafood and vegetables. 2. Add rice and saffron. 3. Add water and simmer until rice is cooked.",
+            "steps": "1. Sauté seafood and vegetables. 2. Add rice and saffron. 3. Add water and simmer until rice is cooked.",
             "tags": [
                 "Spanish",
                 "Seafood",
@@ -169,7 +169,7 @@
             "url": "https://www.themealdb.com/images/media/meals/1520081754.jpg"
         },
         {
-            "id": 9,
+            "id": "9",
             "title": "Shakshuka",
             "description": "A Middle Eastern dish of poached eggs in a spicy tomato sauce.",
             "ingredients": [
@@ -179,7 +179,7 @@
                 "bell pepper",
                 "spices"
             ],
-            "steps": "1. Saut\u00e9 onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
+            "steps": "1. Sauté onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
             "tags": [
                 "Middle Eastern",
                 "Vegetarian",
@@ -190,17 +190,17 @@
             "url": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg"
         },
         {
-            "id": 10,
+            "id": "10",
             "title": "Moussaka",
-            "description": "A Greek casserole with layers of eggplant, ground meat, and b\u00e9chamel sauce.",
+            "description": "A Greek casserole with layers of eggplant, ground meat, and béchamel sauce.",
             "ingredients": [
                 "eggplant",
                 "ground lamb",
                 "tomato sauce",
-                "b\u00e9chamel sauce",
+                "béchamel sauce",
                 "cheese"
             ],
-            "steps": "1. Fry eggplant slices. 2. Cook ground lamb with tomato sauce. 3. Layer eggplant, lamb, and b\u00e9chamel sauce. 4. Bake until golden.",
+            "steps": "1. Fry eggplant slices. 2. Cook ground lamb with tomato sauce. 3. Layer eggplant, lamb, and béchamel sauce. 4. Bake until golden.",
             "tags": [
                 "Greek",
                 "Casserole",
@@ -211,7 +211,7 @@
             "url": "https://www.themealdb.com/images/media/meals/ctg8jd1585563097.jpg"
         },
         {
-            "id": 11,
+            "id": "11",
             "title": "Banh Mi",
             "description": "A Vietnamese sandwich with a crispy baguette and various fillings.",
             "ingredients": [
@@ -232,7 +232,7 @@
             "url": "https://www.themealdb.com/images/media/meals/z0ageb1583189517.jpg"
         },
         {
-            "id": 12,
+            "id": "12",
             "title": "Risotto",
             "description": "A creamy Italian rice dish, often cooked with broth and cheese.",
             "ingredients": [
@@ -242,7 +242,7 @@
                 "onion",
                 "butter"
             ],
-            "steps": "1. Saut\u00e9 onion in butter. 2. Add rice and cook until translucent. 3. Gradually add broth, stirring until absorbed. 4. Stir in parmesan cheese.",
+            "steps": "1. Sauté onion in butter. 2. Add rice and cook until translucent. 3. Gradually add broth, stirring until absorbed. 4. Stir in parmesan cheese.",
             "tags": [
                 "Italian",
                 "Rice",
@@ -253,7 +253,7 @@
             "url": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg"
         },
         {
-            "id": 13,
+            "id": "13",
             "title": "Pizza",
             "description": "An Italian dish consisting of a yeasted flatbread topped with tomato sauce and cheese.",
             "ingredients": [
@@ -274,7 +274,7 @@
             "url": "https://www.themealdb.com/images/media/meals/x0lk931587671540.jpg"
         },
         {
-            "id": 14,
+            "id": "14",
             "title": "Shakshuka",
             "description": "A Middle Eastern dish of poached eggs in a spicy tomato sauce.",
             "ingredients": [
@@ -284,7 +284,7 @@
                 "bell pepper",
                 "spices"
             ],
-            "steps": "1. Saut\u00e9 onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
+            "steps": "1. Sauté onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
             "tags": [
                 "Middle Eastern",
                 "Vegetarian",
@@ -295,17 +295,17 @@
             "url": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg"
         },
         {
-            "id": 15,
+            "id": "15",
             "title": "Moussaka",
-            "description": "A Greek casserole with layers of eggplant, ground meat, and b\u00e9chamel sauce.",
+            "description": "A Greek casserole with layers of eggplant, ground meat, and béchamel sauce.",
             "ingredients": [
                 "eggplant",
                 "ground lamb",
                 "tomato sauce",
-                "b\u00e9chamel sauce",
+                "béchamel sauce",
                 "cheese"
             ],
-            "steps": "1. Fry eggplant slices. 2. Cook ground lamb with tomato sauce. 3. Layer eggplant, lamb, and b\u00e9chamel sauce. 4. Bake until golden.",
+            "steps": "1. Fry eggplant slices. 2. Cook ground lamb with tomato sauce. 3. Layer eggplant, lamb, and béchamel sauce. 4. Bake until golden.",
             "tags": [
                 "Greek",
                 "Casserole",
@@ -316,7 +316,7 @@
             "url": "https://www.themealdb.com/images/media/meals/ctg8jd1585563097.jpg"
         },
         {
-            "id": 16,
+            "id": "16",
             "title": "Risotto",
             "description": "A creamy Italian rice dish, often cooked with broth and cheese.",
             "ingredients": [
@@ -326,7 +326,7 @@
                 "onion",
                 "butter"
             ],
-            "steps": "1. Saut\u00e9 onion in butter. 2. Add rice and cook until translucent. 3. Gradually add broth, stirring until absorbed. 4. Stir in parmesan cheese.",
+            "steps": "1. Sauté onion in butter. 2. Add rice and cook until translucent. 3. Gradually add broth, stirring until absorbed. 4. Stir in parmesan cheese.",
             "tags": [
                 "Italian",
                 "Rice",
@@ -337,7 +337,7 @@
             "url": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg"
         },
         {
-            "id": 17,
+            "id": "17",
             "title": "Shakshuka",
             "description": "A Middle Eastern dish of poached eggs in a spicy tomato sauce.",
             "ingredients": [
@@ -347,7 +347,7 @@
                 "bell pepper",
                 "spices"
             ],
-            "steps": "1. Saut\u00e9 onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
+            "steps": "1. Sauté onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
             "tags": [
                 "Middle Eastern",
                 "Vegetarian",
@@ -358,9 +358,9 @@
             "url": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg"
         },
         {
-            "id": 20,
+            "id": "20",
             "title": "Ratatouille",
-            "description": "A French Proven\u00e7al stewed vegetable dish.",
+            "description": "A French Provençal stewed vegetable dish.",
             "ingredients": [
                 "eggplant",
                 "zucchini",
@@ -368,7 +368,7 @@
                 "tomato",
                 "onion"
             ],
-            "steps": "1. Saut\u00e9 vegetables. 2. Layer in a baking dish. 3. Bake until tender.",
+            "steps": "1. Sauté vegetables. 2. Layer in a baking dish. 3. Bake until tender.",
             "tags": [
                 "French",
                 "Vegetarian",
@@ -379,7 +379,7 @@
             "url": "https://www.themealdb.com/images/media/meals/wrpwuu1511786491.jpg"
         },
         {
-            "id": 23,
+            "id": "23",
             "title": "Goulash",
             "description": "A Hungarian stew of meat and vegetables, seasoned with paprika.",
             "ingredients": [
@@ -389,7 +389,7 @@
                 "potatoes",
                 "carrots"
             ],
-            "steps": "1. Saut\u00e9 beef and onions. 2. Add paprika and vegetables. 3. Simmer until tender.",
+            "steps": "1. Sauté beef and onions. 2. Add paprika and vegetables. 3. Simmer until tender.",
             "tags": [
                 "Hungarian",
                 "Stew",
@@ -400,7 +400,7 @@
             "url": "https://www.themealdb.com/images/media/meals/n1hcou1628770088.jpg"
         },
         {
-            "id": 28,
+            "id": "28",
             "title": "Poutine",
             "description": "A Canadian dish consisting of fries topped with cheese curds and gravy.",
             "ingredients": [
@@ -419,7 +419,7 @@
             "url": "https://www.themealdb.com/images/media/meals/uuyrrx1487327597.jpg"
         },
         {
-            "id": 29,
+            "id": "29",
             "title": "Croissant",
             "description": "A buttery, flaky, and layered French pastry.",
             "ingredients": [
@@ -440,7 +440,7 @@
             "url": "https://www.themealdb.com/images/media/meals/7mxnzz1593350801.jpg"
         },
         {
-            "id": 30,
+            "id": "30",
             "title": "Biryani",
             "description": "A mixed rice dish with its origins among the Muslims of the Indian subcontinent.",
             "ingredients": [
@@ -461,7 +461,7 @@
             "url": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg"
         },
         {
-            "id": 31,
+            "id": "31",
             "title": "Clam Chowder",
             "description": "A rich and creamy soup made with clams, potatoes, and onions.",
             "ingredients": [
@@ -482,7 +482,7 @@
             "url": "https://www.themealdb.com/images/media/meals/rvtvuw1511190488.jpg"
         },
         {
-            "id": 32,
+            "id": "32",
             "title": "Fajitas",
             "description": "A Tex-Mex dish consisting of grilled meat served on a tortilla.",
             "ingredients": [
@@ -492,7 +492,7 @@
                 "tortilla",
                 "spices"
             ],
-            "steps": "1. Marinate and grill chicken. 2. Saut\u00e9 peppers and onions. 3. Serve with tortillas.",
+            "steps": "1. Marinate and grill chicken. 2. Sauté peppers and onions. 3. Serve with tortillas.",
             "tags": [
                 "Mexican",
                 "Chicken",
@@ -503,7 +503,7 @@
             "url": "https://www.themealdb.com/images/media/meals/tvtxpq1511464705.jpg"
         },
         {
-            "id": 33,
+            "id": "33",
             "title": "Shepherd's Pie",
             "description": "A comforting dish with a meat and vegetable filling topped with mashed potatoes.",
             "ingredients": [
@@ -524,7 +524,7 @@
             "url": "https://www.themealdb.com/images/media/meals/w8umt11583268117.jpg"
         },
         {
-            "id": 36,
+            "id": "36",
             "title": "Beef Wellington",
             "description": "A luxurious dish of beef tenderloin wrapped in puff pastry.",
             "ingredients": [
@@ -545,7 +545,7 @@
             "url": "https://www.themealdb.com/images/media/meals/vvpprx1487325699.jpg"
         },
         {
-            "id": 37,
+            "id": "37",
             "title": "Chicken Alfredo",
             "description": "A creamy pasta dish with chicken and Alfredo sauce.",
             "ingredients": [
@@ -555,7 +555,7 @@
                 "parmesan cheese",
                 "garlic"
             ],
-            "steps": "1. Cook pasta. 2. Saut\u00e9 chicken and garlic. 3. Add cream and cheese. 4. Toss with pasta.",
+            "steps": "1. Cook pasta. 2. Sauté chicken and garlic. 3. Add cream and cheese. 4. Toss with pasta.",
             "tags": [
                 "Italian",
                 "Pasta",
@@ -564,6 +564,140 @@
             "difficulty": "Easy",
             "lastUpdated": "2025-01-02T10:00:00",
             "url": "https://www.themealdb.com/images/media/meals/syqypv1486981727.jpg"
+        }
+    ],
+    "tags": [
+        {
+            "id": "1",
+            "tag": "American"
+        },
+        {
+            "id": "2",
+            "tag": "Beef"
+        },
+        {
+            "id": "3",
+            "tag": "Breakfast"
+        },
+        {
+            "id": "4",
+            "tag": "British"
+        },
+        {
+            "id": "5",
+            "tag": "Canadian"
+        },
+        {
+            "id": "6",
+            "tag": "Casserole"
+        },
+        {
+            "id": "7",
+            "tag": "Chicken"
+        },
+        {
+            "id": "8",
+            "tag": "Comfort Food"
+        },
+        {
+            "id": "9",
+            "tag": "Curry"
+        },
+        {
+            "id": "10",
+            "tag": "Dinner"
+        },
+        {
+            "id": "11",
+            "tag": "French"
+        },
+        {
+            "id": "12",
+            "tag": "Greek"
+        },
+        {
+            "id": "13",
+            "tag": "Healthy"
+        },
+        {
+            "id": "14",
+            "tag": "Hungarian"
+        },
+        {
+            "id": "15",
+            "tag": "Indian"
+        },
+        {
+            "id": "16",
+            "tag": "Italian"
+        },
+        {
+            "id": "17",
+            "tag": "Japanese"
+        },
+        {
+            "id": "18",
+            "tag": "Mexican"
+        },
+        {
+            "id": "19",
+            "tag": "Middle Eastern"
+        },
+        {
+            "id": "20",
+            "tag": "Pasta"
+        },
+        {
+            "id": "21",
+            "tag": "Pastry"
+        },
+        {
+            "id": "22",
+            "tag": "Pizza"
+        },
+        {
+            "id": "23",
+            "tag": "Quick"
+        },
+        {
+            "id": "24",
+            "tag": "Rice"
+        },
+        {
+            "id": "25",
+            "tag": "Russian"
+        },
+        {
+            "id": "26",
+            "tag": "Salad"
+        },
+        {
+            "id": "27",
+            "tag": "Sandwich"
+        },
+        {
+            "id": "28",
+            "tag": "Seafood"
+        },
+        {
+            "id": "29",
+            "tag": "Snack"
+        },
+        {
+            "id": "30",
+            "tag": "Soup"
+        },
+        {
+            "id": "31",
+            "tag": "Taco"
+        },
+        {
+            "id": "32",
+            "tag": "Vegetarian"
+        },
+        {
+            "id": "33",
+            "tag": "Vietnamese"
         }
     ],
     "messages": []

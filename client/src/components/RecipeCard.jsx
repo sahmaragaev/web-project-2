@@ -53,6 +53,10 @@ function RecipeCard({ recipe, onDelete, onEdit, isFeatured }) {
             <strong>Ingredients:</strong> {recipe.ingredients.join(", ")}
           </p>
           <p>
+            <strong>Preparation steps: </strong>
+            {recipe.steps}
+          </p>
+          <p>
             <strong>Difficulty:</strong> {recipe.difficulty}
           </p>
           <p>

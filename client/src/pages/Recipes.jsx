@@ -2,11 +2,12 @@ import React, { useEffect, useState } from "react";
 import RecipeCard from "../components/RecipeCard";
 import RecipeForm from "../components/RecipeForm";
 import SearchBar from "../components/SearchBar";
-import { getAllRecipes } from "../services/api";
-import './Recipes.css';
+import { getAllRecipes, getAllTags } from "../services/api";
+import "./Recipes.css";
 
 function Recipes() {
   const [recipes, setRecipes] = useState([]);
+  const [tags, setTags] = useState([]);
   const [showForm, setShowForm] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [filterTag, setFilterTag] = useState("");
@@ -14,6 +15,7 @@ function Recipes() {
 
   useEffect(() => {
     fetchRecipes();
+    fetchTags();
   }, []);
 
   async function fetchRecipes() {
@@ -30,8 +32,20 @@ function Recipes() {
     }
   }
 
+  async function fetchTags() {
+    try {
+      const data = await getAllTags();
+      setTags(data);
+    } catch (error) {
+      console.error("Error fetching tags:", error);
+    }
+  }
+
   const filteredRecipes = recipes
-    .filter((recipe, index, self) => index === self.findIndex((r) => r.id === recipe.id))
+    .filter(
+      (recipe, index, self) =>
+        index === self.findIndex((r) => r.id === recipe.id)
+    )
     .filter((recipe) => {
       const term = searchTerm.toLowerCase();
       return (
@@ -76,11 +90,16 @@ function Recipes() {
 
       <div className="filter-container">
         <label>Filter by tag:</label>
-        <select value={filterTag} onChange={(e) => setFilterTag(e.target.value)}>
+        <select
+          value={filterTag}
+          onChange={(e) => setFilterTag(e.target.value)}
+        >
           <option value="">All</option>
-          <option value="Dessert">Dessert</option>
-          <option value="Vegetarian">Vegetarian</option>
-          <option value="Quick Meal">Quick Meal</option>
+          {tags.map((tag) => (
+            <option key={tag.id} value={tag.tag}>
+              {tag.tag}
+            </option>
+          ))}
         </select>
       </div>
 
