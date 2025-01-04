@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { deleteRecipe, updateRecipe } from "../services/api";
 import "./RecipeCard.css";
 
-function RecipeCard({ recipe, onDelete, onEdit, isFeatured }) {
+function RecipeCard({ recipe, onDelete, onEdit, onSelect, isSelected, isFeatured}) {
   const [isEditing, setIsEditing] = useState(false);
   const [title, setTitle] = useState(recipe.title);
   const [description, setDescription] = useState(recipe.description);
@@ -24,6 +24,10 @@ function RecipeCard({ recipe, onDelete, onEdit, isFeatured }) {
     await updateRecipe(recipe.id, updatedRecipe);
     setIsEditing(false);
     onEdit();
+  };
+
+  const handleSelectToggle = () => {
+    onSelect();
   };
 
   return (
@@ -53,8 +57,7 @@ function RecipeCard({ recipe, onDelete, onEdit, isFeatured }) {
             <strong>Ingredients:</strong> {recipe.ingredients.join(", ")}
           </p>
           <p>
-            <strong>Preparation steps: </strong>
-            {recipe.steps}
+            <strong>Preparation steps:</strong> {recipe.steps}
           </p>
           <p>
             <strong>Difficulty:</strong> {recipe.difficulty}
@@ -70,6 +73,12 @@ function RecipeCard({ recipe, onDelete, onEdit, isFeatured }) {
             <div className="button-group">
               <button onClick={() => setIsEditing(true)}>Edit</button>
               <button onClick={handleDelete}>Delete</button>
+              <button
+                onClick={handleSelectToggle}
+                className={isSelected ? "deselect-button" : "select-button"}
+              >
+                {isSelected ? "Deselect" : "Select"}
+              </button>
             </div>
           )}
         </>

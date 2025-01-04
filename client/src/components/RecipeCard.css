@@ -35,9 +35,12 @@
 
 .recipe-card .button-group {
   display: flex;
-  justify-content: space-between;
-  margin-top: 1em;
   gap: 10px;
+  margin-top: 1em;
+  justify-content: center; /* Center buttons horizontally */
+  position: relative;
+  left: 50%; /* Move to the center */
+  transform: translateX(-50%); /* Adjust centering */
 }
 
 .recipe-card button {
@@ -54,6 +57,24 @@
 .recipe-card button:hover {
   background-color: #708b75;
   color: #f8f991;
+}
+
+.recipe-card .select-button {
+  background-color: #57a1d8;
+  color: white;
+}
+
+.recipe-card .select-button:hover {
+  background-color: #468cb3;
+}
+
+.recipe-card .deselect-button {
+  background-color: #ff6f61;
+  color: white;
+}
+
+.recipe-card .deselect-button:hover {
+  background-color: #d95c52;
 }
 
 .recipe-card input,

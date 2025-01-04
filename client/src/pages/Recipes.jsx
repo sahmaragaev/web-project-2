@@ -15,6 +15,7 @@ function Recipes() {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalRecipes, setTotalRecipes] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
+  const [selectedRecipes, setSelectedRecipes] = useState([]);
 
   useEffect(() => {
     fetchRecipes(1, true);
@@ -45,6 +46,25 @@ function Recipes() {
       console.error("Error fetching tags:", error);
     }
   }
+
+  const handleSelectRecipe = (recipeId) => {
+    setSelectedRecipes((prevSelected) =>
+      prevSelected.includes(recipeId)
+        ? prevSelected.filter((id) => id !== recipeId)
+        : [...prevSelected, recipeId]
+    );
+  };
+
+  const handleSendEmail = () => {
+    const selectedData = recipes.filter((recipe) =>
+      selectedRecipes.includes(recipe.id)
+    );
+    const jsonString = encodeURIComponent(
+      JSON.stringify(selectedData, null, 2)
+    );
+    const mailtoLink = `mailto:?subject=Selected Recipes&body=${jsonString}`;
+    window.location.href = mailtoLink;
+  };
 
   const filteredRecipes = recipes.filter((recipe) => {
     const term = searchTerm.toLowerCase();
@@ -91,9 +111,17 @@ function Recipes() {
   return (
     <div className="recipes-container">
       <h1>Recipes</h1>
-      <button onClick={() => setShowForm(!showForm)}>
-        {showForm ? "Close" : "Create New Recipe"}
-      </button>
+      <div className="top-controls">
+        <button
+          onClick={handleSendEmail}
+          disabled={selectedRecipes.length === 0}
+        >
+          Send Selected Recipes via Email
+        </button>
+        <button onClick={() => setShowForm(!showForm)}>
+          {showForm ? "Close" : "Create New Recipe"}
+        </button>
+      </div>
 
       {showForm && (
         <RecipeForm
@@ -137,6 +165,8 @@ function Recipes() {
           <RecipeCard
             key={recipe.id}
             recipe={recipe}
+            isSelected={selectedRecipes.includes(recipe.id)}
+            onSelect={() => handleSelectRecipe(recipe.id)}
             onDelete={() => fetchRecipes(1, true)}
             onEdit={() => fetchRecipes(1, true)}
           />
