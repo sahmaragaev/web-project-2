@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "1",
+            "id": 1,
             "title": "Spaghetti Bolognese",
             "description": "A classic Italian pasta dish with a rich, savory sauce.",
             "ingredients": [
@@ -22,7 +22,7 @@
             "url": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg"
         },
         {
-            "id": "2",
+            "id": 2,
             "title": "Chicken Curry",
             "description": "A flavorful and aromatic curry dish.",
             "ingredients": [
@@ -32,7 +32,7 @@
                 "onion",
                 "garlic"
             ],
-            "steps": "1. Sauté onion and garlic. 2. Add chicken and cook until browned. 3. Stir in curry paste and coconut milk. 4. Simmer until chicken is cooked.",
+            "steps": "1. Saut\u00e9 onion and garlic. 2. Add chicken and cook until browned. 3. Stir in curry paste and coconut milk. 4. Simmer until chicken is cooked.",
             "tags": [
                 "Indian",
                 "Curry",
@@ -43,7 +43,7 @@
             "url": "https://www.themealdb.com/images/media/meals/vwrpps1503068729.jpg"
         },
         {
-            "id": "3",
+            "id": 3,
             "title": "Beef Stroganoff",
             "description": "A creamy beef dish served with noodles.",
             "ingredients": [
@@ -64,7 +64,7 @@
             "url": "https://www.themealdb.com/images/media/meals/svprys1511176755.jpg"
         },
         {
-            "id": "4",
+            "id": 4,
             "title": "Greek Salad",
             "description": "A fresh and tangy salad with feta cheese.",
             "ingredients": [
@@ -85,7 +85,7 @@
             "url": "https://www.themealdb.com/images/media/meals/k29viq1585565980.jpg"
         },
         {
-            "id": "5",
+            "id": 4,
             "title": "Sushi",
             "description": "A Japanese dish of vinegared rice and various toppings or fillings.",
             "ingredients": [
@@ -106,7 +106,7 @@
             "url": "https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg"
         },
         {
-            "id": "6",
+            "id": 6,
             "title": "Tacos",
             "description": "A Mexican dish consisting of a tortilla filled with various toppings.",
             "ingredients": [
@@ -127,7 +127,7 @@
             "url": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg"
         },
         {
-            "id": "7",
+            "id": 7,
             "title": "Lasagna",
             "description": "A classic Italian dish with layers of pasta, meat, cheese, and sauce.",
             "ingredients": [
@@ -148,7 +148,7 @@
             "url": "https://www.themealdb.com/images/media/meals/rvxxuy1468312893.jpg"
         },
         {
-            "id": "8",
+            "id": 8,
             "title": "Paella",
             "description": "A traditional Spanish rice dish with seafood and vegetables.",
             "ingredients": [
@@ -158,7 +158,7 @@
                 "bell peppers",
                 "saffron"
             ],
-            "steps": "1. Sauté seafood and vegetables. 2. Add rice and saffron. 3. Add water and simmer until rice is cooked.",
+            "steps": "1. Saut\u00e9 seafood and vegetables. 2. Add rice and saffron. 3. Add water and simmer until rice is cooked.",
             "tags": [
                 "Spanish",
                 "Seafood",
@@ -169,7 +169,7 @@
             "url": "https://www.themealdb.com/images/media/meals/1520081754.jpg"
         },
         {
-            "id": "9",
+            "id": 9,
             "title": "Shakshuka",
             "description": "A Middle Eastern dish of poached eggs in a spicy tomato sauce.",
             "ingredients": [
@@ -179,7 +179,7 @@
                 "bell pepper",
                 "spices"
             ],
-            "steps": "1. Sauté onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
+            "steps": "1. Saut\u00e9 onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
             "tags": [
                 "Middle Eastern",
                 "Vegetarian",
@@ -190,17 +190,17 @@
             "url": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg"
         },
         {
-            "id": "10",
+            "id": 10,
             "title": "Moussaka",
-            "description": "A Greek casserole with layers of eggplant, ground meat, and béchamel sauce.",
+            "description": "A Greek casserole with layers of eggplant, ground meat, and b\u00e9chamel sauce.",
             "ingredients": [
                 "eggplant",
                 "ground lamb",
                 "tomato sauce",
-                "béchamel sauce",
+                "b\u00e9chamel sauce",
                 "cheese"
             ],
-            "steps": "1. Fry eggplant slices. 2. Cook ground lamb with tomato sauce. 3. Layer eggplant, lamb, and béchamel sauce. 4. Bake until golden.",
+            "steps": "1. Fry eggplant slices. 2. Cook ground lamb with tomato sauce. 3. Layer eggplant, lamb, and b\u00e9chamel sauce. 4. Bake until golden.",
             "tags": [
                 "Greek",
                 "Casserole",
@@ -211,7 +211,7 @@
             "url": "https://www.themealdb.com/images/media/meals/ctg8jd1585563097.jpg"
         },
         {
-            "id": "11",
+            "id": 11,
             "title": "Banh Mi",
             "description": "A Vietnamese sandwich with a crispy baguette and various fillings.",
             "ingredients": [
@@ -232,7 +232,7 @@
             "url": "https://www.themealdb.com/images/media/meals/z0ageb1583189517.jpg"
         },
         {
-            "id": "12",
+            "id": 12,
             "title": "Risotto",
             "description": "A creamy Italian rice dish, often cooked with broth and cheese.",
             "ingredients": [
@@ -242,7 +242,7 @@
                 "onion",
                 "butter"
             ],
-            "steps": "1. Sauté onion in butter. 2. Add rice and cook until translucent. 3. Gradually add broth, stirring until absorbed. 4. Stir in parmesan cheese.",
+            "steps": "1. Saut\u00e9 onion in butter. 2. Add rice and cook until translucent. 3. Gradually add broth, stirring until absorbed. 4. Stir in parmesan cheese.",
             "tags": [
                 "Italian",
                 "Rice",
@@ -253,7 +253,7 @@
             "url": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg"
         },
         {
-            "id": "13",
+            "id": 13,
             "title": "Pizza",
             "description": "An Italian dish consisting of a yeasted flatbread topped with tomato sauce and cheese.",
             "ingredients": [
@@ -274,7 +274,7 @@
             "url": "https://www.themealdb.com/images/media/meals/x0lk931587671540.jpg"
         },
         {
-            "id": "14",
+            "id": 14,
             "title": "Shakshuka",
             "description": "A Middle Eastern dish of poached eggs in a spicy tomato sauce.",
             "ingredients": [
@@ -284,7 +284,7 @@
                 "bell pepper",
                 "spices"
             ],
-            "steps": "1. Sauté onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
+            "steps": "1. Saut\u00e9 onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
             "tags": [
                 "Middle Eastern",
                 "Vegetarian",
@@ -295,7 +295,28 @@
             "url": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg"
         },
         {
-            "id": "16",
+            "id": 15,
+            "title": "Moussaka",
+            "description": "A Greek casserole with layers of eggplant, ground meat, and b\u00e9chamel sauce.",
+            "ingredients": [
+                "eggplant",
+                "ground lamb",
+                "tomato sauce",
+                "b\u00e9chamel sauce",
+                "cheese"
+            ],
+            "steps": "1. Fry eggplant slices. 2. Cook ground lamb with tomato sauce. 3. Layer eggplant, lamb, and b\u00e9chamel sauce. 4. Bake until golden.",
+            "tags": [
+                "Greek",
+                "Casserole",
+                "Comfort Food"
+            ],
+            "difficulty": "Hard",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.themealdb.com/images/media/meals/ctg8jd1585563097.jpg"
+        },
+        {
+            "id": 16,
             "title": "Risotto",
             "description": "A creamy Italian rice dish, often cooked with broth and cheese.",
             "ingredients": [
@@ -305,7 +326,7 @@
                 "onion",
                 "butter"
             ],
-            "steps": "1. Sauté onion in butter. 2. Add rice and cook until translucent. 3. Gradually add broth, stirring until absorbed. 4. Stir in parmesan cheese.",
+            "steps": "1. Saut\u00e9 onion in butter. 2. Add rice and cook until translucent. 3. Gradually add broth, stirring until absorbed. 4. Stir in parmesan cheese.",
             "tags": [
                 "Italian",
                 "Rice",
@@ -316,7 +337,7 @@
             "url": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg"
         },
         {
-            "id": "17",
+            "id": 17,
             "title": "Shakshuka",
             "description": "A Middle Eastern dish of poached eggs in a spicy tomato sauce.",
             "ingredients": [
@@ -326,7 +347,7 @@
                 "bell pepper",
                 "spices"
             ],
-            "steps": "1. Sauté onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
+            "steps": "1. Saut\u00e9 onion and bell pepper. 2. Add tomatoes and spices. 3. Create wells in the sauce and crack eggs into them. 4. Cover and cook until eggs are poached.",
             "tags": [
                 "Middle Eastern",
                 "Vegetarian",
@@ -337,9 +358,9 @@
             "url": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg"
         },
         {
-            "id": "20",
+            "id": 20,
             "title": "Ratatouille",
-            "description": "A French Provençal stewed vegetable dish.",
+            "description": "A French Proven\u00e7al stewed vegetable dish.",
             "ingredients": [
                 "eggplant",
                 "zucchini",
@@ -347,7 +368,7 @@
                 "tomato",
                 "onion"
             ],
-            "steps": "1. Sauté vegetables. 2. Layer in a baking dish. 3. Bake until tender.",
+            "steps": "1. Saut\u00e9 vegetables. 2. Layer in a baking dish. 3. Bake until tender.",
             "tags": [
                 "French",
                 "Vegetarian",
@@ -358,7 +379,7 @@
             "url": "https://www.themealdb.com/images/media/meals/wrpwuu1511786491.jpg"
         },
         {
-            "id": "23",
+            "id": 23,
             "title": "Goulash",
             "description": "A Hungarian stew of meat and vegetables, seasoned with paprika.",
             "ingredients": [
@@ -368,7 +389,7 @@
                 "potatoes",
                 "carrots"
             ],
-            "steps": "1. Sauté beef and onions. 2. Add paprika and vegetables. 3. Simmer until tender.",
+            "steps": "1. Saut\u00e9 beef and onions. 2. Add paprika and vegetables. 3. Simmer until tender.",
             "tags": [
                 "Hungarian",
                 "Stew",
@@ -379,7 +400,7 @@
             "url": "https://www.themealdb.com/images/media/meals/n1hcou1628770088.jpg"
         },
         {
-            "id": "28",
+            "id": 28,
             "title": "Poutine",
             "description": "A Canadian dish consisting of fries topped with cheese curds and gravy.",
             "ingredients": [
@@ -398,7 +419,7 @@
             "url": "https://www.themealdb.com/images/media/meals/uuyrrx1487327597.jpg"
         },
         {
-            "id": "29",
+            "id": 29,
             "title": "Croissant",
             "description": "A buttery, flaky, and layered French pastry.",
             "ingredients": [
@@ -419,7 +440,7 @@
             "url": "https://www.themealdb.com/images/media/meals/7mxnzz1593350801.jpg"
         },
         {
-            "id": "30",
+            "id": 30,
             "title": "Biryani",
             "description": "A mixed rice dish with its origins among the Muslims of the Indian subcontinent.",
             "ingredients": [
@@ -440,7 +461,7 @@
             "url": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg"
         },
         {
-            "id": "31",
+            "id": 31,
             "title": "Clam Chowder",
             "description": "A rich and creamy soup made with clams, potatoes, and onions.",
             "ingredients": [
@@ -461,7 +482,7 @@
             "url": "https://www.themealdb.com/images/media/meals/rvtvuw1511190488.jpg"
         },
         {
-            "id": "32",
+            "id": 32,
             "title": "Fajitas",
             "description": "A Tex-Mex dish consisting of grilled meat served on a tortilla.",
             "ingredients": [
@@ -471,7 +492,7 @@
                 "tortilla",
                 "spices"
             ],
-            "steps": "1. Marinate and grill chicken. 2. Sauté peppers and onions. 3. Serve with tortillas.",
+            "steps": "1. Marinate and grill chicken. 2. Saut\u00e9 peppers and onions. 3. Serve with tortillas.",
             "tags": [
                 "Mexican",
                 "Chicken",
@@ -482,7 +503,7 @@
             "url": "https://www.themealdb.com/images/media/meals/tvtxpq1511464705.jpg"
         },
         {
-            "id": "33",
+            "id": 33,
             "title": "Shepherd's Pie",
             "description": "A comforting dish with a meat and vegetable filling topped with mashed potatoes.",
             "ingredients": [
@@ -503,7 +524,7 @@
             "url": "https://www.themealdb.com/images/media/meals/w8umt11583268117.jpg"
         },
         {
-            "id": "36",
+            "id": 36,
             "title": "Beef Wellington",
             "description": "A luxurious dish of beef tenderloin wrapped in puff pastry.",
             "ingredients": [
@@ -524,7 +545,7 @@
             "url": "https://www.themealdb.com/images/media/meals/vvpprx1487325699.jpg"
         },
         {
-            "id": "37",
+            "id": 37,
             "title": "Chicken Alfredo",
             "description": "A creamy pasta dish with chicken and Alfredo sauce.",
             "ingredients": [
@@ -534,7 +555,7 @@
                 "parmesan cheese",
                 "garlic"
             ],
-            "steps": "1. Cook pasta. 2. Sauté chicken and garlic. 3. Add cream and cheese. 4. Toss with pasta.",
+            "steps": "1. Cook pasta. 2. Saut\u00e9 chicken and garlic. 3. Add cream and cheese. 4. Toss with pasta.",
             "tags": [
                 "Italian",
                 "Pasta",
@@ -543,6 +564,956 @@
             "difficulty": "Easy",
             "lastUpdated": "2025-01-02T10:00:00",
             "url": "https://www.themealdb.com/images/media/meals/syqypv1486981727.jpg"
+        },
+        {
+            "id": 38,
+            "title": "Pho",
+            "description": "A Vietnamese soup made with broth, rice noodles, herbs, and meat.",
+            "ingredients": [
+                "beef bones",
+                "rice noodles",
+                "star anise",
+                "ginger",
+                "onion",
+                "cilantro",
+                "bean sprouts"
+            ],
+            "steps": "1. Simmer beef bones with ginger and spices to create broth. 2. Cook rice noodles. 3. Combine noodles, broth, and toppings. 4. Serve with lime and chili.",
+            "tags": [
+                "Vietnamese",
+                "Soup",
+                "Comfort Food"
+            ],
+            "difficulty": "Hard",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.inspiredtaste.net/wp-content/uploads/2016/06/Vietnamese-Pho-Soup-Recipe-1.jpg"
+        },
+        {
+            "id": 39,
+            "title": "Pad Thai",
+            "description": "A Thai stir-fried noodle dish with shrimp, tofu, peanuts, and a tangy sauce.",
+            "ingredients": [
+                "rice noodles",
+                "shrimp",
+                "tofu",
+                "peanuts",
+                "tamarind paste",
+                "bean sprouts",
+                "egg"
+            ],
+            "steps": "1. Soak noodles. 2. Stir-fry shrimp and tofu. 3. Add noodles, tamarind sauce, and bean sprouts. 4. Garnish with peanuts and lime.",
+            "tags": [
+                "Thai",
+                "Noodles",
+                "Dinner"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://inquiringchef.com/wp-content/uploads/2023/02/Authentic-Pad-Thai_square-1908.jpg"
+        },
+        {
+            "id": 40,
+            "title": "Ramen",
+            "description": "A Japanese noodle soup with meat, egg, and various toppings.",
+            "ingredients": [
+                "ramen noodles",
+                "chicken broth",
+                "soy sauce",
+                "pork belly",
+                "egg",
+                "nori",
+                "scallions"
+            ],
+            "steps": "1. Cook ramen noodles. 2. Simmer broth with soy sauce. 3. Add toppings like pork belly and egg. 4. Serve hot.",
+            "tags": [
+                "Japanese",
+                "Soup",
+                "Comfort Food"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://pinchandswirl.com/wp-content/uploads/2024/10/Shoyu-Ramen-2.jpg"
+        },
+        {
+            "id": 41,
+            "title": "Shish Kebab",
+            "description": "Middle Eastern skewers of marinated meat grilled over a flame.",
+            "ingredients": [
+                "lamb",
+                "yogurt",
+                "garlic",
+                "cumin",
+                "bell peppers",
+                "onion"
+            ],
+            "steps": "1. Marinate lamb in yogurt and spices. 2. Skewer lamb with vegetables. 3. Grill until cooked. 4. Serve with pita.",
+            "tags": [
+                "Middle Eastern",
+                "Grilled",
+                "Dinner"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://thesageapron.com/wp-content/uploads/2023/07/Lamb-Shish-Kebab-7.jpg"
+        },
+        {
+            "id": 42,
+            "title": "Cheeseburger",
+            "description": "An American classic with a juicy beef patty and melted cheese.",
+            "ingredients": [
+                "ground beef",
+                "bun",
+                "cheese",
+                "lettuce",
+                "tomato",
+                "onion",
+                "pickles"
+            ],
+            "steps": "1. Shape ground beef into patties. 2. Grill until cooked. 3. Assemble with bun, cheese, and toppings. 4. Serve with fries.",
+            "tags": [
+                "American",
+                "Burger",
+                "Fast Food"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.recipetineats.com/tachyon/2022/08/Stack-of-cheeseburgers.jpg"
+        },
+        {
+            "id": 43,
+            "title": "Tom Yum Soup",
+            "description": "A Thai hot and sour soup with shrimp and fragrant herbs.",
+            "ingredients": [
+                "shrimp",
+                "lemongrass",
+                "lime leaves",
+                "galangal",
+                "chili",
+                "mushrooms",
+                "fish sauce"
+            ],
+            "steps": "1. Simmer broth with lemongrass and herbs. 2. Add shrimp and mushrooms. 3. Season with fish sauce and lime. 4. Serve hot.",
+            "tags": [
+                "Thai",
+                "Soup",
+                "Spicy"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://hot-thai-kitchen.com/wp-content/uploads/2013/03/tom-yum-goong-blog.jpg"
+        },
+        {
+            "id": 44,
+            "title": "Tiramisu",
+            "description": "A rich Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cream.",
+            "ingredients": [
+                "ladyfingers",
+                "espresso",
+                "mascarpone",
+                "cocoa powder",
+                "sugar",
+                "eggs"
+            ],
+            "steps": "1. Dip ladyfingers in espresso. 2. Layer with mascarpone mixture. 3. Sprinkle cocoa powder. 4. Chill before serving.",
+            "tags": [
+                "Italian",
+                "Dessert",
+                "Sweet"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.cookingclassy.com/wp-content/uploads/2022/08/tiramisu-17-768x1152.jpg"
+        },
+        {
+            "id": 45,
+            "title": "Churros",
+            "description": "Spanish fried dough pastry, often served with chocolate sauce.",
+            "ingredients": [
+                "flour",
+                "butter",
+                "sugar",
+                "cinnamon",
+                "eggs",
+                "chocolate"
+            ],
+            "steps": "1. Make dough and pipe into hot oil. 2. Fry until golden. 3. Coat with sugar and cinnamon. 4. Serve with chocolate sauce.",
+            "tags": [
+                "Spanish",
+                "Dessert",
+                "Snack"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.recipetineats.com/tachyon/2016/08/Churros_9.jpg?resize=900%2C1260&zoom=0.72"
+        },
+        {
+            "id": 46,
+            "title": "Classic Caesar Salad",
+            "description": "A classic salad with romaine lettuce, croutons, and Caesar dressing.",
+            "ingredients": [
+                "romaine lettuce",
+                "croutons",
+                "parmesan cheese",
+                "Caesar dressing",
+                "anchovies"
+            ],
+            "steps": "1. Toss lettuce and croutons. 2. Add dressing and mix well. 3. Garnish with parmesan and anchovies.",
+            "tags": [
+                "American",
+                "Salad",
+                "Healthy"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.gimmesomeoven.com/wp-content/uploads/2020/06/Caesar-Salad-Recipe-5.jpg"
+        },
+        {
+            "id": 47,
+            "title": "Macarons",
+            "description": "A delicate French confection made with almond flour and filled with ganache.",
+            "ingredients": [
+                "almond flour",
+                "powdered sugar",
+                "egg whites",
+                "granulated sugar",
+                "food coloring",
+                "ganache"
+            ],
+            "steps": "1. Whisk egg whites and sugar into meringue. 2. Fold in almond flour mixture. 3. Pipe onto a baking sheet and bake. 4. Fill with ganache.",
+            "tags": [
+                "French",
+                "Dessert",
+                "Sweet"
+            ],
+            "difficulty": "Hard",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://images.immediate.co.uk/production/volatile/sites/2/2022/05/Macarons-fb56db8.jpg?resize=768,574"
+        },
+        {
+            "id": 48,
+            "title": "Perfect Chocolate Truffles",
+            "description": "Rich and creamy chocolate truffles that melt in your mouth.",
+            "ingredients": [
+                "dark chocolate",
+                "heavy cream",
+                "butter",
+                "cocoa powder"
+            ],
+            "steps": "1. Melt chocolate with cream and butter. 2. Chill until firm. 3. Scoop and shape into balls. 4. Roll in cocoa powder.",
+            "tags": [
+                "Dessert",
+                "Chocolate",
+                "Sweet"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://lostinfood.co.uk/wp-content/uploads/2021/11/Chocolate-Truffles-Light-Recipe-Card-Closeup.jpeg"
+        },
+        {
+            "id": 49,
+            "title": "Garlic Roasted Green Beans",
+            "description": "Tender green beans roasted with garlic for a simple and delicious side dish.",
+            "ingredients": [
+                "green beans",
+                "garlic",
+                "olive oil",
+                "salt",
+                "pepper"
+            ],
+            "steps": "1. Toss green beans with olive oil, garlic, salt, and pepper. 2. Roast until tender. 3. Serve warm.",
+            "tags": [
+                "Side Dish",
+                "Vegetable",
+                "Healthy"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.onceuponachef.com/images/2010/11/roasted-green-beans-10-1200x888.jpg"
+        },
+        {
+            "id": 50,
+            "title": "Easy Peanut Butter Pie",
+            "description": "A creamy and indulgent peanut butter pie with a chocolate cookie crust.",
+            "ingredients": [
+                "peanut butter",
+                "cream cheese",
+                "whipped cream",
+                "chocolate cookie crust",
+                "peanuts",
+                "chocolate shavings"
+            ],
+            "steps": "1. Beat peanut butter and cream cheese until smooth. 2. Fold in whipped cream. 3. Pour into crust and chill. 4. Top with peanuts and chocolate shavings.",
+            "tags": [
+                "Dessert",
+                "Pie",
+                "Sweet"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://littlesunnykitchen.com/wp-content/uploads/2022/03/No-Bake-Peanut-Butter-Pie-1.jpg"
+        },
+        {
+            "id": 51,
+            "title": "Perfect Homemade Pizza Dough",
+            "description": "A foolproof recipe for making pizza dough at home.",
+            "ingredients": [
+                "all-purpose flour",
+                "yeast",
+                "sugar",
+                "salt",
+                "olive oil",
+                "water"
+            ],
+            "steps": "1. Combine dry ingredients. 2. Add water and oil, mix to form dough. 3. Knead until smooth. 4. Let rise until doubled. 5. Shape and bake.",
+            "tags": [
+                "Main Course",
+                "Italian",
+                "Pizza"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.inspiredtaste.net/wp-content/uploads/2023/08/Cheese-Pizza-6-1200-1024x683.jpg"
+        },
+        {
+            "id": 52,
+            "title": "Easy Split Pea Soup",
+            "description": "A hearty and comforting split pea soup made with simple ingredients.",
+            "ingredients": [
+                "split peas",
+                "carrots",
+                "celery",
+                "onion",
+                "ham",
+                "garlic",
+                "bay leaf",
+                "thyme",
+                "chicken broth"
+            ],
+            "steps": "1. Sauté vegetables and garlic. 2. Add split peas, ham, herbs, and broth. 3. Simmer until peas are tender. 4. Adjust seasoning and serve.",
+            "tags": [
+                "Soup",
+                "Comfort Food",
+                "Gluten-Free"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.inspiredtaste.net/wp-content/uploads/2024/12/Homemade-Split-Pea-Soup-Recipe-3-1023x1536.jpg"
+        },
+        {
+            "id": 53,
+            "title": "Cedar Plank Salmon with Citrus Rub",
+            "description": "Grilled salmon on a cedar plank with a zesty citrus rub.",
+            "ingredients": [
+                "salmon fillets",
+                "cedar planks",
+                "orange zest",
+                "lemon zest",
+                "brown sugar",
+                "paprika",
+                "salt",
+                "pepper"
+            ],
+            "steps": "1. Soak cedar planks. 2. Mix citrus rub ingredients. 3. Apply rub to salmon. 4. Grill on cedar planks until cooked through.",
+            "tags": [
+                "Main Course",
+                "Seafood",
+                "Gluten-Free"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.inspiredtaste.net/wp-content/uploads/2015/06/Cedar-Plank-Salmon-Recipe-3-1200.jpg"
+        },
+        {
+            "id": 54,
+            "title": "Perfect Asparagus Soup",
+            "description": "A creamy and flavorful asparagus soup that's perfect for spring.",
+            "ingredients": [
+                "asparagus",
+                "leeks",
+                "garlic",
+                "potato",
+                "chicken broth",
+                "cream",
+                "lemon juice",
+                "salt",
+                "pepper"
+            ],
+            "steps": "1. Sauté leeks and garlic. 2. Add asparagus, potato, and broth. 3. Simmer until vegetables are tender. 4. Blend until smooth, add cream and lemon juice. 5. Season and serve.",
+            "tags": [
+                "Soup",
+                "Vegetarian",
+                "Gluten-Free"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.inspiredtaste.net/wp-content/uploads/2017/04/Asparagus-Soup-Recipe-1.1-1200-1024x683.jpg"
+        },
+        {
+            "id": 56,
+            "title": "Lasagna",
+            "description": "A classic Italian dish with layers of rich meat sauce, creamy béchamel, and pasta.",
+            "ingredients": [
+                "ground beef",
+                "onion",
+                "garlic",
+                "tomato paste",
+                "crushed tomatoes",
+                "lasagna sheets",
+                "butter",
+                "flour",
+                "milk",
+                "parmesan cheese",
+                "mozzarella cheese"
+            ],
+            "steps": "1. Prepare the meat sauce by sautéing onion and garlic, adding ground beef, then tomato paste and crushed tomatoes. Simmer until thickened. 2. Make the béchamel sauce by melting butter, stirring in flour, then gradually adding milk until smooth and thickened. Stir in parmesan cheese. 3. Layer the lasagna: start with meat sauce, then lasagna sheets, béchamel sauce, and repeat. Top with mozzarella cheese. 4. Bake until golden and bubbly.",
+            "tags": [
+                "Italian",
+                "Pasta",
+                "Main Course"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.recipetineats.com/tachyon/2017/05/Lasagne-recipe-3-main.jpg?resize=964%2C1350&zoom=0.67"
+        },
+        {
+            "id": 57,
+            "title": "Pancakes",
+            "description": "Fluffy, quick, no-fail pancakes perfect for breakfast.",
+            "ingredients": [
+                "all-purpose flour",
+                "baking powder",
+                "sugar",
+                "salt",
+                "milk",
+                "egg",
+                "butter",
+                "vanilla extract"
+            ],
+            "steps": "1. Whisk together dry ingredients: flour, baking powder, sugar, and salt. 2. In another bowl, whisk together milk, egg, melted butter, and vanilla extract. 3. Combine wet and dry ingredients, stirring until just combined. 4. Cook pancakes on a greased skillet over medium heat until bubbles form on the surface; flip and cook until golden brown.",
+            "tags": [
+                "Breakfast",
+                "Quick and Easy",
+                "Vegetarian"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.recipetineats.com/tachyon/2017/06/Pancakes-featured.jpg?resize=900%2C1260&zoom=0.72"
+        },
+        {
+            "id": 58,
+            "title": "Chicken Shawarma",
+            "description": "Middle Eastern spiced chicken served with garlic sauce and flatbread.",
+            "ingredients": [
+                "chicken thighs",
+                "yogurt",
+                "lemon juice",
+                "garlic",
+                "cumin",
+                "coriander",
+                "paprika",
+                "cinnamon",
+                "olive oil",
+                "salt",
+                "pepper"
+            ],
+            "steps": "1. Marinate chicken thighs in a mixture of yogurt, lemon juice, minced garlic, and spices for at least 2 hours. 2. Grill or bake the chicken until fully cooked and slightly charred. 3. Serve sliced chicken in flatbread with garlic sauce and desired toppings.",
+            "tags": [
+                "Middle Eastern",
+                "Chicken",
+                "Main Course"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://imageproxy.wolt.com/menu/menu-images/5da81839730678ea9375b87d/17dace7a-f8d9-11eb-a29c-62208d087598_sade_bukme.jpeg"
+        },
+        {
+            "id": 59,
+            "title": "Baked Buffalo Wings",
+            "description": "Ultra crispy chicken wings tossed in a spicy buffalo sauce.",
+            "ingredients": [
+                "chicken wings",
+                "baking powder",
+                "salt",
+                "pepper",
+                "hot sauce",
+                "butter",
+                "honey"
+            ],
+            "steps": "1. Toss chicken wings with baking powder, salt, and pepper. 2. Bake on a rack until crispy and golden. 3. Prepare buffalo sauce by melting butter and mixing with hot sauce and honey. 4. Toss baked wings in the sauce and serve immediately.",
+            "tags": [
+                "Appetizer",
+                "Chicken",
+                "Spicy"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.recipetineats.com/tachyon/2019/01/Baked-Buffalo-Wings_0.jpg?resize=900%2C1260&zoom=0.72"
+        },
+        {
+            "id": 60,
+            "title": "One-Pot Greek Chicken Risoni (Orzo)",
+            "description": "A flavorful one-pot dish with tender chicken and orzo pasta in a Greek-inspired tomato sauce.",
+            "ingredients": [
+                "chicken thighs",
+                "olive oil",
+                "onion",
+                "garlic",
+                "bell pepper",
+                "orzo (risoni)",
+                "chicken broth",
+                "crushed tomatoes",
+                "oregano",
+                "lemon",
+                "feta cheese",
+                "parsley"
+            ],
+            "steps": "1. Sear seasoned chicken thighs in olive oil until browned; set aside. 2. Sauté onion, garlic, and bell pepper until softened. 3. Stir in orzo, chicken broth, crushed tomatoes, and oregano. 4. Nestle chicken back into the pot, bring to a simmer, cover, and cook until orzo is tender and chicken is cooked through. 5. Finish with a squeeze of lemon juice, crumbled feta, and chopped parsley.",
+            "tags": [
+                "Greek",
+                "Chicken",
+                "One-Pot"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.recipetineats.com/tachyon/2016/01/One-Pot-Greek-Risoni_7.jpg?resize=900%2C1125&zoom=0.72"
+        },
+        {
+            "id": 61,
+            "title": "Nasi Goreng (Indonesian Fried Rice)",
+            "description": "A traditional Indonesian fried rice with a unique flavor, often served with a fried egg.",
+            "ingredients": [
+                "cold cooked rice",
+                "chicken",
+                "garlic",
+                "onion",
+                "kecap manis (sweet soy sauce)",
+                "shrimp paste (optional)",
+                "chili",
+                "egg",
+                "cucumber",
+                "tomato"
+            ],
+            "steps": "1. Sauté garlic, onion, and chili. 2. Add chicken and cook through. 3. Stir in cold rice, kecap manis, and shrimp paste. 4. Serve topped with a fried egg and side of cucumber and tomato.",
+            "tags": [
+                "Indonesian",
+                "Fried Rice",
+                "Main Course"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.recipetineats.com/tachyon/2016/03/Nasi-Goreng_3-1.jpg?resize=900%2C1260&zoom=0.72"
+        },
+        {
+            "id": 62,
+            "title": "Gozleme (Turkish Stuffed Flatbread)",
+            "description": "Crispy Turkish flatbreads stuffed with various fillings like spinach and feta or spiced meats.",
+            "ingredients": [
+                "flour",
+                "olive oil",
+                "water",
+                "salt",
+                "spinach",
+                "feta cheese",
+                "ground lamb or beef",
+                "onion",
+                "garlic",
+                "spices"
+            ],
+            "steps": "1. Prepare dough with flour, olive oil, water, and salt; let rest. 2. Roll out dough and add desired filling. 3. Fold and seal dough over filling. 4. Cook on a skillet until crispy and golden on both sides.",
+            "tags": [
+                "Turkish",
+                "Flatbread",
+                "Snack"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.recipetineats.com/tachyon/2019/03/Spinach-Feta-Gozleme.jpg?resize=900%2C1260&zoom=0.72"
+        },
+        {
+            "id": 63,
+            "title": "Fluffy Pancakes",
+            "description": "Light and fluffy pancakes perfect for a weekend breakfast.",
+            "ingredients": [
+                "all-purpose flour",
+                "baking powder",
+                "sugar",
+                "salt",
+                "milk",
+                "egg",
+                "butter",
+                "vanilla extract"
+            ],
+            "steps": "1. Whisk together dry ingredients. 2. In a separate bowl, combine wet ingredients. 3. Mix wet and dry ingredients until just combined. 4. Cook pancakes on a greased skillet until bubbles form; flip and cook until golden.",
+            "tags": [
+                "Breakfast",
+                "Pancakes",
+                "Easy"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2025-01-02T10:00:00",
+            "url": "https://www.recipetineats.com/tachyon/2017/06/Pancakes-featured.jpg?resize=900%2C1260&zoom=0.72"
+        },
+        {
+            "id": 64,
+            "title": "Miso Chicken Soup With Squash and Tiny Pasta",
+            "description": "A cozy and wholesome chicken noodle soup enhanced with miso, squash, and tiny pasta.",
+            "ingredients": [
+                "chicken breast",
+                "kabocha squash",
+                "ditalini pasta",
+                "kale",
+                "red miso",
+                "chicken broth",
+                "chili oil (optional)"
+            ],
+            "steps": "1. Bring chicken broth to a boil. 2. Poach chicken breast until cooked through, then shred. 3. Add diced squash and pasta to the broth; cook until tender. 4. Stir in kale and miso until dissolved. 5. Return shredded chicken to the pot; heat through. 6. Serve hot, drizzled with chili oil if desired.",
+            "tags": [
+                "Soup",
+                "Chicken",
+                "Comfort Food"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2025-01-01T10:00:00",
+            "url": "https://assets.bonappetit.com/photos/6761a98b01519dd1ae66fc6d/1:1/w_960,c_limit/20241119_05_Red%20Miso%20Chicken%20Soup_015.jpg"
+        },
+        {
+            "id": 65,
+            "title": "Incredibly Good Homemade Pizza",
+            "description": "A restaurant-style pizza made at home with a crisp bottom and charred finish.",
+            "ingredients": [
+                "pizza dough",
+                "pizza sauce",
+                "mozzarella cheese",
+                "olive oil",
+                "toppings of choice"
+            ],
+            "steps": "1. Preheat oven with a wire rack inside a rimmed baking sheet under the broiler. 2. Stretch pizza dough and place in a hot skillet over medium heat; cook until bottom is crisp. 3. Add sauce, cheese, and desired toppings. 4. Transfer skillet to the oven; broil until cheese is bubbly and crust is charred. 5. Serve hot.",
+            "tags": [
+                "Pizza",
+                "Italian",
+                "Main Course"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2025-01-01T10:00:00",
+            "url": "https://assets.bonappetit.com/photos/6765ae55513ab6c0e5e77c52/1:1/w_960,c_limit/ba-best-pizza-dough_RECIPE_V1_121924_8697_VOG_Badge_final.jpg"
+        },
+        {
+            "id": 66,
+            "title": "Fudgy Weed Brownies",
+            "description": "Decadent brownies infused with cannabis for a rich and indulgent treat.",
+            "ingredients": [
+                "cannabis-infused butter",
+                "bittersweet chocolate",
+                "sugar",
+                "eggs",
+                "vanilla extract",
+                "all-purpose flour",
+                "cocoa powder",
+                "salt"
+            ],
+            "steps": "1. Melt cannabis-infused butter and chocolate together. 2. Whisk in sugar, eggs, and vanilla. 3. Fold in flour, cocoa powder, and salt. 4. Pour batter into a prepared baking pan. 5. Bake until a toothpick comes out with moist crumbs. 6. Cool before cutting into squares.",
+            "tags": [
+                "Dessert",
+                "Brownies",
+                "Edibles"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2024-12-06T10:00:00",
+            "url": "https://assets.bonappetit.com/photos/660713867663fffe8d610264/1:1/w_960,c_limit/20240327_BA_Pantry0026_VOG_final.jpg"
+        },
+        {
+            "id": 67,
+            "title": "Bob’s Chicken and Cabbage Salad",
+            "description": "A crunchy and vibrant salad featuring tender chicken and fresh cabbage.",
+            "ingredients": [
+                "shredded chicken",
+                "green cabbage",
+                "red cabbage",
+                "carrots",
+                "scallions",
+                "cilantro",
+                "toasted almonds",
+                "sesame seeds",
+                "soy sauce",
+                "rice vinegar",
+                "sesame oil",
+                "honey",
+                "ginger",
+                "garlic"
+            ],
+            "steps": "1. Combine shredded chicken, cabbages, carrots, scallions, cilantro, almonds, and sesame seeds in a large bowl. 2. Whisk together soy sauce, rice vinegar, sesame oil, honey, grated ginger, and minced garlic to make the dressing. 3. Pour dressing over the salad; toss to combine. 4. Serve chilled or at room temperature.",
+            "tags": [
+                "Salad",
+                "Chicken",
+                "Healthy"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2024-12-06T10:00:00",
+            "url": "https://assets.bonappetit.com/photos/65e600898e4432f073a015ac/1:1/w_960,c_limit/20240130-WEB-0224.jpg"
+        },
+        {
+            "id": 68,
+            "title": "Dark and Stormy–Braised Pot Roast",
+            "description": "A hearty pot roast braised with ginger beer and dark rum for a flavorful twist.",
+            "ingredients": [
+                "beef chuck roast",
+                "salt",
+                "pepper",
+                "olive oil",
+                "onions",
+                "carrots",
+                "celery",
+                "garlic",
+                "tomato paste",
+                "ginger beer",
+                "dark rum",
+                "beef broth",
+                "bay leaves",
+                "thyme"
+            ],
+            "steps": "1. Season beef with salt and pepper; sear in olive oil until browned. 2. Sauté onions, carrots, celery, and garlic until softened. 3. Add tomato paste; cook briefly. 4. Pour in ginger beer, dark rum, and beef broth; bring to a simmer. 5. Return beef to the pot; add bay leaves and thyme. 6. Cover and braise in the oven until tender. 7. Serve with vegetables and braising liquid.",
+            "tags": [
+                "Main Course",
+                "Beef",
+                "Comfort Food"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2024-12-06T10:00:00",
+            "url": "https://assets.bonappetit.com/photos/65948cad987934d8959558b7/1:1/w_2560%2Cc_limit/20231109-v0224-COZY-7582.jpg"
+        },
+        {
+            "id": 69,
+            "title": "Easy One Pot Chicken Parmesan Pasta",
+            "description": "A quick and delicious one-pot meal combining tender chicken, pasta, and a rich marinara sauce, topped with melted mozzarella and Parmesan cheese.",
+            "ingredients": [
+                "butter",
+                "panko breadcrumbs",
+                "olive oil",
+                "chicken breast",
+                "salt",
+                "pepper",
+                "Italian seasoning",
+                "yellow onion",
+                "garlic",
+                "chicken stock",
+                "pasta",
+                "marinara sauce",
+                "mozzarella cheese",
+                "Parmesan cheese",
+                "fresh basil"
+            ],
+            "steps": "1. Melt butter in a large Dutch oven over medium heat; add panko breadcrumbs and toast until golden. Remove and set aside. 2. In the same pot, heat olive oil; add cubed chicken breast, season with salt, pepper, and Italian seasoning, and cook until browned. 3. Add diced onion and minced garlic; sauté until softened. 4. Pour in chicken stock, pasta, and marinara sauce; stir to combine. Bring to a boil, then reduce heat and simmer until pasta is cooked and sauce has thickened. 5. Stir in half of the mozzarella and Parmesan cheese until melted. 6. Top with remaining cheese and toasted breadcrumbs; cover until cheese melts. Garnish with fresh basil before serving.",
+            "tags": [
+                "One Pot",
+                "Chicken",
+                "Pasta",
+                "Easy"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2024-01-29T10:00:00",
+            "url": "https://littlesunnykitchen.com/wp-content/uploads/2024/01/One-Pot-Creamy-Parmesan-Chicken-Pasta-1.jpg"
+        },
+        {
+            "id": 70,
+            "title": "Easy Sweet and Sour Chicken",
+            "description": "A homemade version of the classic takeout dish featuring crispy chicken pieces tossed in a tangy sweet and sour sauce.",
+            "ingredients": [
+                "chicken breast",
+                "cornstarch",
+                "eggs",
+                "vegetable oil",
+                "bell peppers",
+                "pineapple chunks",
+                "ketchup",
+                "rice vinegar",
+                "soy sauce",
+                "brown sugar",
+                "garlic",
+                "ginger",
+                "cornstarch slurry"
+            ],
+            "steps": "1. Cut chicken into bite-sized pieces; coat with cornstarch, dip in beaten eggs, and fry in vegetable oil until golden and crispy. Remove and set aside. 2. In the same pan, sauté bell peppers and pineapple chunks until tender. 3. In a bowl, whisk together ketchup, rice vinegar, soy sauce, brown sugar, minced garlic, and grated ginger to make the sauce. 4. Pour sauce into the pan with vegetables; bring to a simmer. 5. Add cornstarch slurry to thicken the sauce. 6. Return chicken to the pan; toss to coat evenly with the sauce. Serve hot over steamed rice.",
+            "tags": [
+                "Chicken",
+                "Asian",
+                "Main Course"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2024-02-14T10:00:00",
+            "url": "https://littlesunnykitchen.com/wp-content/uploads/2024/05/Sweet-and-Sour-Chicken-1-1024x1536.jpg"
+        },
+        {
+            "id": 71,
+            "title": "Baked Tuscan Chicken",
+            "description": "Juicy baked chicken breasts smothered in a creamy garlic sauce with sun-dried tomatoes and spinach, inspired by Tuscan flavors.",
+            "ingredients": [
+                "chicken breasts",
+                "half and half",
+                "cornstarch",
+                "garlic",
+                "sun-dried tomatoes",
+                "Dijon mustard",
+                "smoked paprika",
+                "dried oregano",
+                "dried thyme",
+                "fresh spinach",
+                "Parmesan cheese",
+                "olive oil",
+                "salt",
+                "pepper"
+            ],
+            "steps": "1. Preheat oven to 350°F (180°C). 2. In a bowl, whisk together half and half, cornstarch, minced garlic, chopped sun-dried tomatoes, Dijon mustard, smoked paprika, dried oregano, dried thyme, salt, and pepper to make the sauce. 3. Place chicken breasts in a baking dish; pour sauce over the chicken. 4. Bake for 20-25 minutes until chicken is cooked through. 5. Add fresh spinach and grated Parmesan cheese to the dish; return to oven for a few minutes until spinach wilts and cheese melts. Serve hot.",
+            "tags": [
+                "Chicken",
+                "Baked",
+                "Tuscan",
+                "Main Course"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2024-03-10T10:00:00",
+            "url": "https://littlesunnykitchen.com/wp-content/uploads/2024/12/Baked-Tuscan-Chicken-1-1025x1536.jpg"
+        },
+        {
+            "id": 72,
+            "title": "Sheet Pan Honey Mustard Chicken Thighs",
+            "description": "An easy one-pan meal featuring juicy chicken thighs and roasted vegetables tossed in a sweet and tangy honey mustard sauce.",
+            "ingredients": [
+                "chicken thighs",
+                "honey",
+                "Dijon mustard",
+                "whole grain mustard",
+                "olive oil",
+                "apple cider vinegar",
+                "garlic",
+                "smoked paprika",
+                "Brussels sprouts",
+                "butternut squash",
+                "red onions",
+                "salt",
+                "pepper"
+            ],
+            "steps": "1. In a bowl, mix together honey, Dijon mustard, whole grain mustard, olive oil, apple cider vinegar, minced garlic, smoked paprika, salt, and pepper to make the marinade. 2. Marinate chicken thighs in half of the marinade for at least 30 minutes. 3. Preheat oven to 425°F (220°C). 4. Arrange marinated chicken thighs, halved Brussels sprouts, cubed butternut squash, and quartered red onions on a sheet pan; drizzle with remaining marinade. 5. Roast for 30-35 minutes until chicken is cooked through and vegetables are tender. Serve hot.",
+            "tags": [
+                "Chicken",
+                "Sheet Pan",
+                "Honey Mustard",
+                "Dinner"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2024-04-05T10:00:00",
+            "url": "https://littlesunnykitchen.com/wp-content/uploads/2024/09/Sheet-Pan-Honey-Mustard-Chicken-Thighs-1.jpg"
+        },
+        {
+            "id": 73,
+            "title": "Dutch Oven Chicken Noodle Soup",
+            "description": "A comforting and hearty chicken noodle soup made in a Dutch oven, featuring tender chicken, vegetables, and egg noodles in a savory broth.",
+            "ingredients": [
+                "olive oil",
+                "onion",
+                "carrots",
+                "celery",
+                "garlic",
+                "chicken stock",
+                "boneless, skinless chicken breasts",
+                "bay leaves",
+                "fresh herbs (rosemary, basil, or thyme)",
+                "egg noodles",
+                "lemon juice (optional)",
+                "salt",
+                "pepper"
+            ],
+            "steps": "1. In a large Dutch oven over medium-high heat, heat olive oil and sauté diced onion, carrots, and celery until softened. 2. Add minced garlic and cook for an additional minute. 3. Pour in chicken stock and add chicken breasts, bay leaves, and fresh herbs. Bring to a boil, then reduce heat and simmer until chicken is cooked through. 4. Remove chicken, shred it, and return to the pot. 5. Add egg noodles and cook until tender. 6. Season with salt, pepper, and lemon juice if desired. Serve hot.",
+            "tags": [
+                "Soup",
+                "Chicken",
+                "Comfort Food"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2024-10-14T10:00:00",
+            "url": "https://littlesunnykitchen.com/wp-content/uploads/2024/10/Dutch-Oven-Chicken-Noodle-Soup-1.jpg"
+        },
+        {
+            "id": 74,
+            "title": "Spanakopita Greek Spinach Pie",
+            "description": "A traditional Greek pie made with layers of crispy phyllo dough filled with a savory mixture of spinach, feta cheese, and herbs.",
+            "ingredients": [
+                "olive oil",
+                "onion",
+                "green onions",
+                "garlic",
+                "fresh spinach",
+                "feta cheese",
+                "eggs",
+                "fresh dill",
+                "fresh parsley",
+                "nutmeg",
+                "phyllo dough",
+                "butter",
+                "salt",
+                "pepper"
+            ],
+            "steps": "1. Preheat oven to 350°F (175°C). 2. In a skillet, heat olive oil and sauté diced onion and green onions until translucent. Add minced garlic and cook briefly. 3. Add chopped spinach and cook until wilted. Remove from heat and let cool. 4. In a bowl, combine beaten eggs, crumbled feta, chopped dill, parsley, nutmeg, salt, and pepper. Stir in the cooled spinach mixture. 5. In a baking dish, layer sheets of phyllo dough, brushing each with melted butter. 6. Spread the spinach filling over the phyllo layers. 7. Top with additional layers of phyllo dough, brushing each with butter. 8. Bake for 45-50 minutes until golden and crispy. Let cool slightly before serving.",
+            "tags": [
+                "Greek",
+                "Vegetarian",
+                "Pie"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2024-03-06T10:00:00",
+            "url": "https://littlesunnykitchen.com/wp-content/uploads/2024/02/Spanakopita-Spinach-Pie-4-1025x1536.jpg"
+        },
+        {
+            "id": 75,
+            "title": "Easy Lebanese Lentil Soup",
+            "description": "A simple and flavorful Lebanese soup made with red lentils, vegetables, and warm spices, perfect for a nutritious meal.",
+            "ingredients": [
+                "olive oil",
+                "onion",
+                "carrots",
+                "potatoes",
+                "garlic",
+                "red lentils",
+                "cumin",
+                "vegetable stock",
+                "salt",
+                "pepper",
+                "lemon wedges (for serving)"
+            ],
+            "steps": "1. In a large pot, heat olive oil over medium heat. Sauté diced onion, carrots, and potatoes until softened. 2. Add minced garlic and cook for an additional minute. 3. Stir in red lentils and ground cumin. 4. Pour in vegetable stock, bring to a boil, then reduce heat and simmer until lentils and vegetables are tender. 5. Season with salt and pepper. For a smoother texture, blend part or all of the soup using an immersion blender. 6. Serve hot with lemon wedges on the side.",
+            "tags": [
+                "Lebanese",
+                "Vegan",
+                "Soup"
+            ],
+            "difficulty": "Easy",
+            "lastUpdated": "2024-03-06T10:00:00",
+            "url": "https://littlesunnykitchen.com/wp-content/uploads/2024/02/Crushed-Lentil-Soup-1.jpg"
+        },
+        {
+            "id": 76,
+            "title": "Molokhia",
+            "description": "A traditional Middle Eastern dish made with jute leaves cooked in a flavorful broth, often served over rice with chicken or meat.",
+            "ingredients": [
+                "molokhia leaves (fresh or frozen)",
+                "olive oil",
+                "garlic",
+                "coriander",
+                "chicken broth",
+                "lemon juice",
+                "salt",
+                "pepper",
+                "cooked rice (for serving)",
+                "cooked chicken or meat (optional)"
+            ],
+            "steps": "1. If using fresh molokhia leaves, wash and finely chop them. If using frozen, thaw before use. 2. In a pot, heat olive oil over medium heat. Sauté minced garlic and ground coriander until fragrant. 3. Add molokhia leaves and stir to combine. 4. Pour in chicken broth, bring to a boil, then reduce heat and simmer until the leaves are tender. 5. Season with salt, pepper, and lemon juice to taste. 6. Serve hot over cooked rice, with cooked chicken or meat if desired.",
+            "tags": [
+                "Middle Eastern",
+                "Soup",
+                "Traditional"
+            ],
+            "difficulty": "Medium",
+            "lastUpdated": "2017-01-01T10:00:00",
+            "url": "https://littlesunnykitchen.com/wp-content/uploads/2016/04/Molokhia-recipe-1.jpg"
         }
     ],
     "tags": [
