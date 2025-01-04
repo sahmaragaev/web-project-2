@@ -8,19 +8,11 @@ export const getRecipe = async (id) => {
 }
 
 export const getAllRecipes = async (page = 1, limit = 10) => {
-    // Workaround because res.headers["x-total-count"] does not work anymore. 
-    // I would have forked and fixed the library but I don't have enough time. 
-    // Hopefully when I do, I will open a PR for the OG team.
-    const response = await axios.get(`${API_URL}/recipes`);
-    const count = response.data.length;
-
-    const startIndex = (page - 1) * limit;
-    const endIndex = startIndex + limit;
-    const paginatedRecipes = response.data.slice(startIndex, endIndex);
-
+    const res = await axios.get(`${API_URL}/recipes?_page=${page}&_limit=${limit}`);
+    const total = parseInt(res.headers["x-total-count"], 10);
     return {
-        data: paginatedRecipes,
-        total: count,
+        data: res.data,
+        total: isNaN(total) ? 0 : total,
     };
 };
 
