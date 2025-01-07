@@ -4,7 +4,7 @@ A React-based web application with a JSON-Server backend to provide mock data.
 
 ## Demo
 
-The project cannot be deployed in GitHub pages since the project includes server (api) which cannot be run on GH pages. 
+It is impossible to deploy this project in GitHub pages since the project includes server (api) which cannot run on GH pages. 
 
 ## Table of Contents
 
