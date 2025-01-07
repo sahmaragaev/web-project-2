@@ -50,15 +50,6 @@ function Home() {
           </a>
         </li>
         <li>
-          <a
-            href="https://github.com/sahmaragaev/aze-flag"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Flag (Shahmar, Also private)
-          </a>
-        </li>
-        <li>
           <a href="sahmar.org" target="_blank" rel="noreferrer">
             Shahmar CV
           </a>
