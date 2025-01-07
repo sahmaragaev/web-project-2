@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import RecipeCard from "../components/RecipeCard";
 import RecipeForm from "../components/RecipeForm";
 import SearchBar from "../components/SearchBar";
-import { getAllRecipes, getAllTags } from "../services/api";
+import { getAllRecipes, getAllTags, updateRecipeOrder } from "../services/api";
 import "./Recipes.css";
 
 function Recipes() {
@@ -16,6 +16,7 @@ function Recipes() {
   const [totalRecipes, setTotalRecipes] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [selectedRecipes, setSelectedRecipes] = useState([]);
+  const [draggedIndex, setDraggedIndex] = useState(null);
 
   useEffect(() => {
     fetchRecipes(1, true);
@@ -64,6 +65,34 @@ function Recipes() {
     );
     const mailtoLink = `mailto:?subject=Selected Recipes&body=${jsonString}`;
     window.location.href = mailtoLink;
+  };
+
+  const handleDragStart = (index) => {
+    setDraggedIndex(index);
+  };
+
+  const handleDragOver = (e) => {
+    e.preventDefault();
+  };
+
+  const handleDrop = async (index) => {
+    const updatedRecipes = [...recipes];
+    const [draggedItem] = updatedRecipes.splice(draggedIndex, 1);
+    updatedRecipes.splice(index, 0, draggedItem);
+
+    setRecipes(updatedRecipes);
+    setDraggedIndex(null);
+
+    // Update order in database
+    try {
+      const reorderedData = updatedRecipes.map((recipe, i) => ({
+        id: recipe.id,
+        order: i,
+      }));
+      await updateRecipeOrder(reorderedData);
+    } catch (error) {
+      console.error("Error updating recipe order:", error);
+    }
   };
 
   const filteredRecipes = recipes.filter((recipe) => {
@@ -161,15 +190,23 @@ function Recipes() {
       </div>
 
       <div className="recipes-grid">
-        {sortedRecipes.map((recipe) => (
-          <RecipeCard
+        {sortedRecipes.map((recipe, index) => (
+          <div
             key={recipe.id}
-            recipe={recipe}
-            isSelected={selectedRecipes.includes(recipe.id)}
-            onSelect={() => handleSelectRecipe(recipe.id)}
-            onDelete={() => fetchRecipes(1, true)}
-            onEdit={() => fetchRecipes(1, true)}
-          />
+            draggable
+            onDragStart={() => handleDragStart(index)}
+            onDragOver={handleDragOver}
+            onDrop={() => handleDrop(index)}
+            className="recipe-card"
+          >
+            <RecipeCard
+              recipe={recipe}
+              isSelected={selectedRecipes.includes(recipe.id)}
+              onSelect={() => handleSelectRecipe(recipe.id)}
+              onDelete={() => fetchRecipes(1, true)}
+              onEdit={() => fetchRecipes(1, true)}
+            />
+          </div>
         ))}
       </div>
       {isLoading && <p>Loading...</p>}
