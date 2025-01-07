@@ -50,9 +50,11 @@ npm -v
    This command installs all required packages for the React application.
 
 3. **Install JSON-Server dependencies**  
-   If the JSON-Server setup is located in the same root folder or in a subfolder (e.g., `server`), change to that directory and install dependencies:
+   In server folder and client folder write npm install:
    ```bash
-   cd server   # only if there's a dedicated 'server' folder
+   cd server
+   npm install
+   cd ../client
    npm install
    ```
 
@@ -60,9 +62,9 @@ npm -v
 
 ## Running the React App
 
-1. **Navigate to the React app folder** (if your `package.json` is in the root, you can skip this step):
+1. **Navigate to the React app folder**
    ```bash
-   cd path/to/react-app
+   cd client
    ```
 2. **Start the React development server**:
    ```bash
@@ -82,7 +84,7 @@ npm -v
    ```
 3. **Start the JSON-Server**:
    ```bash
-   npx json-server --watch db.json --port 3000
+   npm start
    ```
    - This command will start the JSON-Server on **http://localhost:3000** (you can choose a different port if needed).
 
@@ -124,7 +126,3 @@ web-project-2/
 - **server/package.json**: Dependencies and scripts for JSON-Server.
 
 ---
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE), or any other license you have specified.
