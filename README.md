@@ -4,10 +4,7 @@ A React-based web application with a JSON-Server backend to provide mock data.
 
 ## Demo
 
-You can find the deployed GitHub Pages site here:  
-**[Web Project 2 Demo](https://sahmaragaev.github.io/web-project-2/)**
-
----
+The project cannot be deployed in GitHub pages since the project includes server (api) which cannot be run on GH pages. 
 
 ## Table of Contents
 
